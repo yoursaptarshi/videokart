@@ -1,10 +1,10 @@
 import React from 'react'
-import { Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, HStack, useDisclosure, VStack } from '@chakra-ui/react'
+import { Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, HStack, useDisclosure, VStack,Image } from '@chakra-ui/react'
 import { ColorModeSwitcher } from '../../../ColorModeSwitcher'
 import { RiDashboardFill, RiLogoutBoxLine, RiMenu5Fill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-
+import logo from '../../../assets/images/logo.png'
 const LinkButton = ({ url = '/', title = 'Home', onClose }) => {
    return(
     <Link onClick={onClose} to={url}>
@@ -42,7 +42,10 @@ const Header = ({ isAuthenticated = false, user }) => {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerHeader borderBottom={'1px'}>
-                        VIDEOKART   
+                        <HStack >
+                       <h1>VIDEOKART</h1>   
+                        <Image src={logo} height='5vh'/> 
+                        </HStack>
                     </DrawerHeader>
                     <DrawerBody>
                     <p>By Saptarshi Samanta</p>

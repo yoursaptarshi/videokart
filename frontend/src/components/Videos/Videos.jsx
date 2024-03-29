@@ -25,7 +25,7 @@ const Video = ({
     loading,
   }) => {
   return (
-    <VStack classname="video" alignItems={['center','flex-start']}>
+    <VStack className="video" alignItems={['center','flex-start']}>
         <Image src={imageSrc} boxSize="60" objectFit={'contain'}/>
         <Heading textAlign ={['center','left']}
         maxW="200px" size={'sm'} fontFamily={'sans-serif'} noOfLines={3} children={title} />
