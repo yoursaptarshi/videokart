@@ -151,7 +151,7 @@ These Terms shall be governed by and defined following the laws of India. Video 
 
 17. DISPUTE RESOLUTION
 
-You agree to irrevocably submit all disputes related to Terms or the legal relationship established by this Agreement to the jurisdiction of the India courts. Video Streaming shall also maintain the right to bring proceedings as to the substance of the matter in the courts of the country where you reside or, if these Terms are entered into in the course of your trade or profession, the state of your principal place of business.
+You agree to irrevocably submit all disputes related to Terms or the legal relationship established by this Agreement to the jurisdiction of the India courts. Video Streaming shall also maintain the right to bring proceedings as to the substance of the matter in the courts of the country where you reside or, if these Terms are entered into in the video of your trade or profession, the state of your principal place of business.
 
 
 18. CORRECTIONS
