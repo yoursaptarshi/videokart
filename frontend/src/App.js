@@ -13,15 +13,17 @@ import NotFound from './components/Layout/NotFound/NotFound';
 import PaymentSuccess from './components/Payments/PaymentSuccess'
 import PaymentFail from './components/Payments/PaymentFail'
 import Subscribe from './components/Payments/Subscribe'
+import CoursePage from './components/CoursePage/CoursePage';
 
 function App() {
-  
+  const user={name:'dajndjaw',role:'admin',subscription:{status:'active'}}
   return (
     <Router>
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/videos' element={<Videos/>}/>
+        <Route path='/video/:id' element={<CoursePage user={user}/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path="/contact" element={<Contact />} />
@@ -30,7 +32,7 @@ function App() {
         <Route path='*' element ={<NotFound/>}/>
         <Route path='/paymentsuccess' element={<PaymentSuccess/>}/>
         <Route path='/paymentfail' element={<PaymentFail/>}/>
-        <Route path='/subscribe' element={<Subscribe/>}/>
+        <Route path='/subscribe' element={<Subscribe user={{name:'saptarshi', email:'anjnfj@nfajnf.com'}}/>}/>
       </Routes>
       <Footer/>
     </Router>
